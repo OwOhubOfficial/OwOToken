@@ -121,8 +121,8 @@ async def start_command(client: Client, message: Message):
 
         elif verify_status['is_verified']:
             reply_markup = InlineKeyboardMarkup(
-                [[InlineKeyboardButton("ð About Me", callback_data="about"),
-                  InlineKeyboardButton("ð Close", callback_data="close")]]
+                [[InlineKeyboardButton("👽 About Me", callback_data="about"),
+                  InlineKeyboardButton("🔒 Close", callback_data="close")]]
             )
             await message.reply_text(
                 text=START_MSG.format(
