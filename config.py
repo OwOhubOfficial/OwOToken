@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7510435688:AAHONSrZf5Cu1QhKQXto72nEebGUDCxsv0o")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7510435688:AAF8cVthfTazkmEZCDnhE7bs2-M_xH5uBws")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "20970265"))
@@ -31,8 +31,8 @@ PORT = os.environ.get("PORT", "8083")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://owohubofficial:owohubofficial@cluster0.yke4c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "owohubofficial")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "35f6ffcdff59c5e08072a41f1d3189ab3babf1ab")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "c1417f0331943aa75837daf709696e4dd7608c7d")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","nottyopen/7")
